@@ -21,7 +21,7 @@ url = 'https://36kr.com/newsflashes'
 #匹配所有在description" content="后面的并以"结尾
 aa=r'"description" content="(.*?)"'
 
-#爬取36kr
+#爬取36kr快讯热点    也可以用自动化 ，不过偏慢
 
 aa=r'"description" content="(.*?)"'
 headers={'Accept-Encoding':'gzip, deflate, br','User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36'}
